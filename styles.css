@@ -1,0 +1,80 @@
+/* Brand Colors */
+:root {
+    --primary-color: #03375A;
+    --secondary-color: #6a8a9e;
+    --white: #FFFFFF;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header .logo {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 36px; /* Subtitle font */
+    color: var(--primary-color);
+}
+
+.intro p {
+    font-size: 16px; /* Body font */
+    color: var(--secondary-color);
+}
+
+.features h3,
+.cta h3 {
+    font-size: 32px; /* Heading font */
+    color: var(--primary-color);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    color: var(--secondary-color);
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.download-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 16px; /* Body font */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px; /* Caption font */
+}
