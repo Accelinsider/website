@@ -31,22 +31,118 @@ main {
     text-align: center;
 }
 
+/* Intro Section */
 .intro h2 {
-    font-size: 36px; /* Subtitle font */
+    font-size: 24px; /* Compact title size */
     color: var(--primary-color);
+    margin-bottom: 10px;
 }
 
 .intro p {
-    font-size: 16px; /* Body font */
+    font-size: 16px; /* Body font size */
     color: var(--secondary-color);
+    margin-bottom: 20px;
 }
 
 .hero-image {
     width: 100%;
+    max-width: 600px; /* Limit the hero image size */
     height: auto;
-    margin-top: 20px;
+    margin: 0 auto 20px;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
 }
 
 .features h3 {
-    font-size: 32px; /* Heading font */
-    color: var(--primary-co
+    font-size: 24px; /* Compact heading */
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.features-content {
+    display: flex; /* Align image and text side by side */
+    align-items: center;
+    gap: 20px; /* Spacing between image and text */
+}
+
+.features-image {
+    width: 25%; /* Shrink image to 25% of the container width */
+    max-width: 200px; /* Cap the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+.features ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+    font-size: 14px; /* Compact text */
+    color: var(--secondary-color);
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.features li strong {
+    color: var(--primary-color); /* Highlight key points */
+    font-size: 16px;
+}
+
+/* Call-to-Action Section */
+.cta {
+    margin-top: 40px;
+}
+
+.cta h3 {
+    font-size: 24px; /* Compact heading */
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 16px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.cta-image {
+    width: 80%; /* Shrink the image to fit */
+    max-width: 400px; /* Limit the maximum size */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.download-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.download-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px; /* Caption font */
+}
