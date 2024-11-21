@@ -41,6 +41,12 @@ main {
     color: var(--secondary-color);
 }
 
+.hero-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
 .features h3,
 .cta h3 {
     font-size: 32px; /* Heading font */
@@ -57,13 +63,44 @@ ul {
     max-width: 600px;
 }
 
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.features-image {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.cta {
+    margin-top: 40px;
+}
+
+.cta p {
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.cta-image {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
 .download-btn {
     background-color: var(--primary-color);
     color: var(--white);
-    font-size: 16px; /* Body font */
+    font-size: 16px;
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .download-btn:hover {
